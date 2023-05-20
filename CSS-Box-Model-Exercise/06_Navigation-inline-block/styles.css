@@ -1,0 +1,26 @@
+html{
+    font-family: Helvetica, sans-serif;
+    margin: 50px;
+}
+nav{
+    display: inline-block;
+}
+hr{
+    color: black;
+}
+span{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 20px;
+    margin-right: 80px;
+}
+a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: green;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
