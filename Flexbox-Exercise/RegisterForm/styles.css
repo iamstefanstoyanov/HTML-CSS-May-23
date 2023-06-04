@@ -27,9 +27,10 @@ section {
     display: flex;
     background-image: url(./images/form-background.png);
     background-size: cover;
+    align-items: center;
     width: 45vw;
     min-width: 300px;
-    height: 500px;
+    min-height: 500px;
     border-radius: 1.7em;
     box-shadow: 20px 10px 10px gray;
     
@@ -37,12 +38,11 @@ section {
 
 .from {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     padding-left: 2.5em;
     max-width: 50%;
-    height: 100%;
+    height: fit-content;
 }
 
 .from h1 {
@@ -58,7 +58,6 @@ label {
     font-weight: 600;
     font-size: 0.7em;
     opacity: 0.7;
-    align-items: center;
 }
 
 input {
@@ -70,28 +69,27 @@ input {
 .input {
     margin: 0.4em 0;
     height: 2em;
+    min-width: 150px;
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 100%;
+    flex-wrap: wrap;
     gap: 1em;
 }
 
 .input-group {
     display: flex;
     flex-direction: column;
-    max-width: 45%;
+    width: 150px;
 }
 
 button {
     width: 150px;
     height: 35px;
     font-size: 0.8em;
-    margin-top: 2em;
+    margin: 2em;
     align-self: center;
     background-color: rgb(214, 61, 41);
     border-radius: 15px;
