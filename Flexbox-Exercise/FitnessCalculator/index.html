@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fitness Calculator</title>
+</head>
+
+<body>
+    <main class="main-content">
+
+        <img src="./image/calculator.png" alt="pictue">
+
+        <div class="calculator">
+            <h1>Fitness Calculator</h1>
+            <div class="units">
+                <button>Standart units(US)</button>
+                <button>Metric Units</button>
+            </div>
+            <h2>Gender</h2>
+            <div class="gender">
+                <div class="gender-menu">
+                    <button class="special">
+                        <span>Female</span> 
+                        <svg class="svg" xmlns="http://www.w3.org/2000/svg" height="1em"
+                            viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                        </svg>
+                    </button>
+                    <div class="gender-menu-content">
+                        <p>Female</p>
+                        <p>Male</p>
+                        <p>Other</p>
+                    </div>
+                </div>
+                <input class="years" type="text" name="years" placeholder="Years...">
+            </div>
+            <h2>Weight</h2>
+            <input class="pounds" type="text" name="pounds" placeholder="Pounds...">
+            <h2>Height</h2>
+            <span>
+                <input class="feet" type="text" name="feet" placeholder="Feet...">
+                <input class="inches" type="text" name="inches" placeholder="Inches...">
+            </span>
+            <button class="calculate">Calculate</button>
+        </div>
+    </main>
+</body>
+
+</html>
