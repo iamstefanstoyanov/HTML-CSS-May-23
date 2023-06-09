@@ -3,7 +3,9 @@
 *::after {
     box-sizing: border-box;
 }
-
+html{
+    font: 14px/1.5 Georgia, serif;
+}
 body {
     background-color: rgb(238, 238, 238)
 }
