@@ -1,53 +1,72 @@
-body{
-    background-color:  rgb(238, 238, 238);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.card
-{
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    margin: auto;
-    width: 500px;
-    background-color:rgb(255, 255, 255);
-    font-family: Georgia, serif;
-    border-radius: 2%;
-    box-shadow: 0px 0px 20px 10px rgb(165, 165, 165);
+body {
+    height: 100vh;
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    align-items: center;
+    justify-content: center;
 }
 
-.card .imageclass{
-    height: 300px;
+.card {
+    width: 40%;
+    border: 1px solid gray;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 5px gray;
+    border-radius: 0.5em;
+}
+
+.card .media {
+    background-color: black;
     position: relative;
+    overflow: hidden;
+    border-radius: 0.5em;
 }
 
-img{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.card .media img {
+    display: block;
+    width: 100%;
+    height: auto;
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 0.5em;
 }
 
-.contentclass{
-    position: relative;
-    padding: 20px 30px 80px;
+.card h3 {
+    font: 1em/1.2 Georgia, serif;
+    padding-bottom: 0.5em;
+    font-weight: bold;
 }
 
-a{
-    text-decoration: none;
-    position: relative;
+.card .media:after {
+    display: block;
+    content: "";
+    padding-top: 50.23%;
+}
+
+.card a {
+    background: rgb(0, 153, 0);
     color: white;
-    padding: 10px 15px;
-    background-color: rgb(0, 153, 0);
-    border-radius: 5px;
-    bottom: -20px;
-    right: -330px;
-    width: 90px;
-    height:35px;
+    display: block;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    position: relative;
+    align-self: end;
 }
 
-h3{
-    size: 1em/1.2;
+.card .content {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.card p {
+    padding-bottom: 1.5em;
 }
