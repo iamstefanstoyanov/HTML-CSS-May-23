@@ -1,0 +1,28 @@
+.top-bar{
+    background: rgba(208,25,25,1);
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+}
+.top-bar p{
+    padding: 0;
+}
+.socials{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.socials a,
+.socials li{
+    display: block;
+}
+.socials li{
+    padding: 0 0.5em;
+}
+.socials a{
+    color: #fff;
+}
+.site-header .site-title{
+    display: none;
+}

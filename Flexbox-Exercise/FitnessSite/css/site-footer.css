@@ -1,0 +1,7 @@
+.site-footer{
+        background: rgba(208,25,25,1);
+        display: flex;
+        color: black;
+        justify-content: center;
+        padding: 0.5em 1em;       
+}
