@@ -1,0 +1,13 @@
+body{
+    width:100%;
+    min-height: 100vh;
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+.postbank-logo{
+    width: 250px;
+    height: auto; 
+}
+

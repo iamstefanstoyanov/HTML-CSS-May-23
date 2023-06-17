@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+html {
+    font: 14px/1.2 Lato, sans-serif;
+}
+
+body,
+input,
+textarea,
+button,
+option,
+select,
+table,
+th,
+td,
+tr {
+    font: inherit;
+}
+
+a,
+p,
+ul,
+ol,
+dl {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.5em;
+    font-family: Montserrat, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 0.8em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
